@@ -24,7 +24,6 @@
     html { scroll-behavior: smooth; }
     body { font-family: var(--font-body); background: var(--off-white); color: var(--black); line-height: 1.6; }
 
-    /* NAV */
     nav {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       display: flex; justify-content: space-between; align-items: center;
@@ -39,7 +38,6 @@
     .nav-links a { font-size: 0.78rem; font-weight: 500; letter-spacing: 1.5px; text-transform: uppercase; color: var(--grey); text-decoration: none; transition: color 0.2s; }
     .nav-links a:hover { color: var(--red); }
 
-    /* HERO */
     .hero {
       min-height: 100vh;
       display: grid;
@@ -126,12 +124,10 @@
     .btn-secondary { display: inline-block; padding: 0.9rem 2rem; border: 1.5px solid var(--black); color: var(--black); text-decoration: none; font-size: 0.8rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; border-radius: 2px; transition: all 0.2s; }
     .btn-secondary:hover { background: var(--black); color: white; }
 
-    /* SECTIONS */
     section { padding: 6rem 4rem; }
     .section-label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 2px; color: var(--red); text-transform: uppercase; margin-bottom: 1rem; }
     .section-title { font-family: var(--font-display); font-size: clamp(2.5rem, 5vw, 4rem); color: var(--black); margin-bottom: 3rem; line-height: 1; letter-spacing: 1px; }
 
-    /* NUMBERS BANNER */
     .numbers-banner {
       background: var(--red);
       padding: 3rem 4rem;
@@ -143,7 +139,6 @@
     .banner-stat .number { font-family: var(--font-display); font-size: 3rem; color: white; letter-spacing: 1px; line-height: 1; }
     .banner-stat .label { font-size: 0.75rem; color: rgba(255,255,255,0.75); letter-spacing: 1px; text-transform: uppercase; margin-top: 0.25rem; }
 
-    /* EXPERIENCE */
     .experience { background: var(--white); }
     .exp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
     .exp-card { padding: 2rem; border: 1px solid var(--grey-light); border-radius: 4px; transition: border-color 0.2s, transform 0.2s; position: relative; }
@@ -155,7 +150,6 @@
     .exp-desc li { font-size: 0.85rem; color: var(--grey); line-height: 1.7; margin-bottom: 0.35rem; padding-left: 1rem; position: relative; }
     .exp-desc li::before { content: '—'; position: absolute; left: 0; color: var(--red); }
 
-    /* COLLABS */
     .collabs { background: var(--off-white); }
     .collab-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; }
     .collab-card { background: var(--white); border-radius: 4px; padding: 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; border: 1px solid var(--grey-light); transition: border-color 0.2s, transform 0.2s; text-decoration: none; }
@@ -167,7 +161,6 @@
     .collab-type { font-size: 0.72rem; color: var(--grey); font-weight: 500; letter-spacing: 0.5px; }
     .collab-highlight { font-size: 0.78rem; color: var(--red); font-weight: 600; margin-top: 0.25rem; }
 
-    /* SKILLS */
     .skills-section { background: var(--black); }
     .skills-section .section-title { color: var(--white); }
     .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; }
@@ -175,7 +168,6 @@
     .skill-group ul { list-style: none; }
     .skill-group li { font-size: 0.9rem; color: rgba(255,255,255,0.65); padding: 0.4rem 0; border-bottom: 1px solid rgba(255,255,255,0.06); }
 
-    /* CONTACT */
     .contact { background: var(--red); text-align: center; }
     .contact .section-label { color: rgba(255,255,255,0.7); }
     .contact .section-title { color: var(--white); margin-bottom: 1rem; }
@@ -186,7 +178,6 @@
     .social-links a { font-size: 0.78rem; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.7); text-decoration: none; transition: color 0.2s; }
     .social-links a:hover { color: white; }
 
-    /* FOOTER */
     footer { background: var(--black); padding: 2rem 4rem; display: flex; justify-content: space-between; align-items: center; }
     footer p { font-size: 0.78rem; color: rgba(255,255,255,0.3); }
     footer span { font-size: 0.78rem; color: var(--red); }
@@ -240,7 +231,7 @@
           <div class="stat-label">Followers for Bean Tree</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">6+</div>
+          <div class="stat-number">9+</div>
           <div class="stat-label">Brand collaborations</div>
         </div>
         <div class="stat-item">
@@ -257,7 +248,7 @@
 
   <div class="numbers-banner">
     <div class="banner-stat"><div class="number">12.4K</div><div class="label">Followers</div></div>
-    <div class="banner-stat"><div class="number">1.7K+</div><div class="label">Posts created</div></div>
+    <div class="banner-stat"><div class="number">9+</div><div class="label">Brand Collabs</div></div>
     <div class="banner-stat"><div class="number">495</div><div class="label">Likes — City Pantry</div></div>
     <div class="banner-stat"><div class="number">Galway</div><div class="label">Based locally</div></div>
   </div>
@@ -315,7 +306,7 @@
       <a class="collab-card" href="https://www.instagram.com/thebeantreegalway/" target="_blank">
         <div class="collab-icon">🌿</div>
         <div class="collab-name">The Bean Tree</div>
-        <div class="collab-type">Social Media Assistent</div>
+        <div class="collab-type">Social Media Manager</div>
         <div class="collab-highlight">+498 followers · 20 posts</div>
         <div class="collab-link">View profile →</div>
       </a>
@@ -339,15 +330,15 @@
       <a class="collab-card" href="https://www.instagram.com/reel/DVTVtpriL14/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
         <div class="collab-icon">☕</div>
         <div class="collab-name">City Pantry Cafe</div>
-        <div class="collab-type">Paid Partnership | Collab Post</div>
-        <div class="collab-highlight"> 58K views </div>
+        <div class="collab-type">Paid Partnership · Collab Post</div>
+        <div class="collab-highlight">58K views</div>
         <div class="collab-link">Watch the Reel →</div>
       </a>
 
       <a class="collab-card" href="https://www.instagram.com/reel/DWO7qOnDbsX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank">
         <div class="collab-icon">🖨️</div>
         <div class="collab-name">Right Price Ink</div>
-        <div class="collab-type">Paid Partnership | Sponsored Content</div>
+        <div class="collab-type">Paid Partnership · Sponsored Content</div>
         <div class="collab-highlight">Organic branded content</div>
         <div class="collab-link">Watch the Reel →</div>
       </a>
@@ -356,7 +347,31 @@
         <div class="collab-icon">🎓</div>
         <div class="collab-name">ATU Global</div>
         <div class="collab-type">Ambassador · Featured</div>
-        <div class="collab-highlight">Day at ATU </div>
+        <div class="collab-highlight">Day at ATU</div>
+        <div class="collab-link">Watch the Reel →</div>
+      </a>
+
+      <a class="collab-card" href="https://www.instagram.com/reel/Dc6IFPztQq1/" target="_blank">
+        <div class="collab-icon">🎶</div>
+        <div class="collab-name">The Skeff / Micil</div>
+        <div class="collab-type">Paid Partnership · Event Invite</div>
+        <div class="collab-highlight">Branded event content</div>
+        <div class="collab-link">Watch the Reel →</div>
+      </a>
+
+      <a class="collab-card" href="https://www.instagram.com/reel/DdOrDKfNRDe/" target="_blank">
+        <div class="collab-icon">📦</div>
+        <div class="collab-name">Express Way</div>
+        <div class="collab-type">Influencer Box · Back to College</div>
+        <div class="collab-highlight">Student giveaway campaign</div>
+        <div class="collab-link">Watch the Reel →</div>
+      </a>
+
+      <a class="collab-card" href="https://www.instagram.com/reel/Da8GdPpNzDB/" target="_blank">
+        <div class="collab-icon">⚽</div>
+        <div class="collab-name">Galway United FC</div>
+        <div class="collab-type">Club Invite · Match Day</div>
+        <div class="collab-highlight">Community & sports content</div>
         <div class="collab-link">Watch the Reel →</div>
       </a>
 
@@ -381,7 +396,6 @@
         <h4>Design & Visual</h4>
         <ul>
           <li>Canva</li>
-          
           <li>Brand Identity</li>
           <li>Carousel Design</li>
         </ul>
@@ -410,7 +424,7 @@
     <p class="section-label">Let's work together</p>
     <h2 class="section-title">GET IN TOUCH</h2>
     <p class="contact-sub">Based in Galway · Available 10–12 hours per week</p>
-    <a href="mailto:info@xianstreetfood.ie" class="contact-email">francialem@gmail.com</a>
+    <a href="mailto:francialem@gmail.com" class="contact-email">francialem@gmail.com</a>
     <div class="social-links">
       <a href="https://instagram.com/francialemelo" target="_blank">@francialemelo</a>
       <a href="https://github.com/francialemelo" target="_blank">GitHub</a>
